@@ -53,7 +53,7 @@ function CaseStudyModal({ slug, lang, onClose, onNavigate, order }) {
             <span className="m"><strong>Year</strong>&nbsp;&nbsp;{data.year}</span>
           </div>
 
-          <h1 className="cs-title">{data.title}</h1>
+          <h2 className="cs-title">{data.title}</h2>
           <p className="cs-hook">{data.hook}</p>
 
           <div className={`cs-hero-gallery ${gallery?.kind === 'phone' ? 'kind-phone' : ''}`}>
@@ -62,7 +62,7 @@ function CaseStudyModal({ slug, lang, onClose, onNavigate, order }) {
             ) : gallery.kind === 'phone' ? gallery.images.map((src, gi) => (
               <div className="cs-frame-phone" key={gi}>
                 <div className="notch"></div>
-                <img src={src} alt=""/>
+                <img src={src} alt={`${data.title} screenshot ${gi + 1}`}/>
               </div>
             )) : galleryLen > 1 ? (
               <div className="cs-carousel">
@@ -70,7 +70,7 @@ function CaseStudyModal({ slug, lang, onClose, onNavigate, order }) {
                   <button type="button" className="cs-carousel-nav-btn prev" onClick={prevSlide} aria-label="Previous screenshot"><window.I.Arrow size={16} style={{transform:'rotate(180deg)'}}/></button>
                   <div className="cs-frame-browser">
                     <div className="bar"><i/><i/><i/></div>
-                    <img src={gallery.images[galleryIdx]} alt=""/>
+                    <img src={gallery.images[galleryIdx]} alt={`${data.title} screenshot ${galleryIdx + 1}`}/>
                   </div>
                   <button type="button" className="cs-carousel-nav-btn next" onClick={nextSlide} aria-label="Next screenshot"><window.I.Arrow size={16}/></button>
                 </div>
@@ -81,7 +81,7 @@ function CaseStudyModal({ slug, lang, onClose, onNavigate, order }) {
                 </div>
               </div>
             ) : (
-              <div className="cs-frame-browser"><div className="bar"><i/><i/><i/></div><img src={gallery.images[0]} alt=""/></div>
+              <div className="cs-frame-browser"><div className="bar"><i/><i/><i/></div><img src={gallery.images[0]} alt={`${data.title} screenshot`}/></div>
             )}
           </div>
 

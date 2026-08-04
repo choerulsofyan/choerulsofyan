@@ -6,7 +6,7 @@ function BrowserThumb({ src, label }) {
       <span className="work-thumb-label">{label}</span>
       <div className="thumb-browser">
         <div className="thumb-browser-bar"><i/><i/><i/></div>
-        <div className="thumb-browser-body"><img src={src} alt=""/></div>
+        <div className="thumb-browser-body"><img src={src} alt={label}/></div>
       </div>
     </div>
   );
@@ -19,7 +19,7 @@ function PhoneThumb({ src, label }) {
       <div className="thumb-phone-wrap">
         <div className="thumb-phone">
           <div className="thumb-phone-notch"></div>
-          <img src={src} alt=""/>
+          <img src={src} alt={label}/>
         </div>
       </div>
     </div>
