@@ -5,7 +5,7 @@ window.PORTFOLIO_DATA = {
     hero: {
       eyebrow: "Available for select freelance engagements",
       name: "Choerul Sofyan",
-      role: "Freelance full-stack engineer",
+      role: "Freelance fullstack engineer",
       tagline: "I work on projects that need to land right. Products with real users, codebases with years of history, and everything in between.",
       sub: "10 years shipping software. Remote work with teams in Singapore and Australia. Bandung, GMT+7.",
       ctaPrimary: "Start a project",
@@ -56,12 +56,12 @@ window.PORTFOLIO_DATA = {
       }
     ],
     stack: [
-      { group: "Front-End", items: ["React.js", "Redux", "TypeScript", "JavaScript", "Vue.js", "jQuery", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SASS", "Nuxt", "Livewire"] },
-      { group: "Back-End", items: ["PHP", "Laravel", "CodeIgniter", "Lumen", "Node.js", "Express.js", "Flask", "Python", "Java", "Bun"] },
+      { group: "frontend", items: ["React.js", "Redux", "TypeScript", "JavaScript", "Vue.js", "jQuery", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SASS", "Nuxt", "Livewire"] },
+      { group: "backend", items: ["PHP", "Laravel", "CodeIgniter", "Lumen", "Node.js", "Express.js", "Flask", "Python", "Java", "Bun"] },
       { group: "Database", items: ["MySQL", "MongoDB", "SQL"] },
       { group: "Tools", items: ["Git", "Figma", "Docker", "Linux", "Microsoft Fabric", "VS Code"] },
       { group: "Practices", items: ["Agile / Scrum", "API integration", "Legacy migration", "Code review"] },
-      { group: "Specialties", items: ["Full-Stack Development", "Front-End Development", "Back-End Web Development", "Web Application Development", "Web Applications", "Web Development", "Web Services", "UI/UX", "Technical Support"] }
+      { group: "Specialties", items: ["Fullstack development", "Frontend development", "Backend development", "Web application development", "Web applications", "Web development", "Web services", "UI/UX", "Technical support"] }
     ],
     process: [
       { n: "01", title: "Discovery call", body: "30 minutes. We talk through scope, constraints, and what done looks like. No pitch deck." },
@@ -109,7 +109,7 @@ window.PORTFOLIO_DATA = {
     hero: {
       eyebrow: "Tersedia untuk proyek freelance terpilih",
       name: "Choerul Sofyan",
-      role: "Full-stack engineer freelance",
+      role: "fullstack engineer freelance",
       tagline: "Saya menangani proyek yang harus beres dengan benar: produk dengan user nyata, codebase dengan sejarah panjang, dan segala kerumitan di antaranya.",
       sub: "Satu dekade menulis dan merilis software. Kerja remote bersama tim di Singapura dan Australia. Berbasis di Bandung, GMT+7.",
       ctaPrimary: "Mulai proyek",
@@ -160,12 +160,12 @@ window.PORTFOLIO_DATA = {
       }
     ],
     stack: [
-      { group: "Front-End", items: ["React.js", "Redux", "TypeScript", "JavaScript", "Vue.js", "jQuery", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SASS", "Nuxt", "Livewire"] },
-      { group: "Back-End", items: ["PHP", "Laravel", "CodeIgniter", "Lumen", "Node.js", "Express.js", "Flask", "Python", "Java", "Bun"] },
+      { group: "frontend", items: ["React.js", "Redux", "TypeScript", "JavaScript", "Vue.js", "jQuery", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SASS", "Nuxt", "Livewire"] },
+      { group: "backend", items: ["PHP", "Laravel", "CodeIgniter", "Lumen", "Node.js", "Express.js", "Flask", "Python", "Java", "Bun"] },
       { group: "Database", items: ["MySQL", "MongoDB", "SQL"] },
       { group: "Tools", items: ["Git", "Figma", "Docker", "Linux", "Microsoft Fabric", "VS Code"] },
       { group: "Praktik", items: ["Agile / Scrum", "Integrasi API", "Migrasi legacy", "Code review"] },
-      { group: "Spesialisasi", items: ["Full-Stack Development", "Front-End Development", "Back-End Web Development", "Web Application Development", "Web Applications", "Web Development", "Web Services", "UI/UX", "Technical Support"] }
+      { group: "Spesialisasi", items: ["fullstack development", "frontend development", "backend development", "web application development", "web applications", "web development", "web services", "UI/UX", "technical support"] }
     ],
     process: [
       { n: "01", title: "Discovery call", body: "30 menit untuk membahas lingkup kerja, kendala, dan tolok ukur keberhasilan proyek. Tanpa pitch deck." },
@@ -441,16 +441,16 @@ window.CASE_STUDIES = {
       title: "School website & CMS",
       client: "Pondok Pesantren Nurul Falah",
       clientNote: "Indonesia \u00b7 freelance side project",
-      role: "Full-Stack Developer (solo)",
+      role: "Fullstack developer (solo)",
       year: "2026",
       stack: ["Laravel 13", "Filament v5", "Rumahweb (shared hosting)"],
       link: "https://nurulfalah.ponpes.id",
-      hook: "Company profile site and admin CMS for an Islamic boarding school. Built full-stack from scratch in about two weeks.",
+      hook: "Company profile site and admin CMS for an Islamic boarding school. Built fullstack from scratch in about two weeks.",
       overview: [
         "Nurul Falah is an Islamic educational institution in Bandung, established 2006. Runs three accredited education levels. Before this project, no official digital presence. Everything was manual: profile, programs, new student admissions.",
         "I took this on as a side project. Built a public site plus a Filament admin panel. Non-technical school staff can manage content themselves\u2014articles, galleries, programs, facilities, admissions\u2014without touching code."
       ],
-      myRole: "Solo full-stack developer. Built the public site and the entire Filament CMS. Handled deployment to shared hosting.",
+      myRole: "Solo fullstack developer. Built the public site and the entire Filament CMS. Handled deployment to shared hosting.",
       approach: [
         "Built the public site around one goal: get a visitor (mostly parents) from learning about the school to enrolling or donating.",
         "Built the admin panel as the real deliverable. Article module with sanitized rich text, auto slugs, categories, tags, author profiles, read time calculation, and draft/scheduled-publish workflow. Plus simpler modules for programs, facilities, and gallery.",
@@ -470,16 +470,16 @@ window.CASE_STUDIES = {
       title: "Website & CMS sekolah",
       client: "Pondok Pesantren Nurul Falah",
       clientNote: "Indonesia \u00b7 freelance side project",
-      role: "Full-Stack Developer (solo)",
+      role: "Fullstack developer (solo)",
       year: "2026",
       stack: ["Laravel 13", "Filament v5", "Rumahweb (shared hosting)"],
       link: "https://nurulfalah.ponpes.id",
-      hook: "Situs company profile dan CMS admin untuk pesantren. Dibangun full-stack dari nol dalam sekitar dua minggu.",
+      hook: "Situs company profile dan CMS admin untuk pesantren. Dibangun fullstack dari nol dalam sekitar dua minggu.",
       overview: [
         "Nurul Falah adalah lembaga pendidikan Islam di Bandung yang berdiri sejak 2006 dan menjalankan tiga jenjang pendidikan terakreditasi. Sebelum proyek ini, mereka belum punya kehadiran digital resmi sama sekali. Semuanya masih manual, mulai dari profil sekolah, program, sampai PPDB.",
         "Saya ambil ini sebagai side project: membangun website publik sekaligus admin panel Filament, supaya staf sekolah yang non-teknis bisa mengelola konten sendiri (artikel, galeri, program, fasilitas, PPDB) tanpa perlu menyentuh kode sama sekali."
       ],
-      myRole: "Full-stack developer tunggal di proyek ini. Saya membangun website publik dan seluruh CMS Filament, sekaligus menangani deployment ke shared hosting.",
+      myRole: "fullstack developer tunggal di proyek ini. Saya membangun website publik dan seluruh CMS Filament, sekaligus menangani deployment ke shared hosting.",
       approach: [
         "Membangun website publik di sekitar satu tujuan saja: mengantar pengunjung, kebanyakan orang tua, dari sekadar mengenal sekolah sampai akhirnya mendaftar atau berdonasi.",
         "Membangun admin panel sebagai deliverable utama, lengkap dengan modul artikel yang punya rich text bersih, slug otomatis, kategori, tag, profil penulis, kalkulasi waktu baca, dan workflow draft/scheduled-publish, ditambah modul-modul yang lebih sederhana untuk program, fasilitas, dan galeri.",
@@ -529,7 +529,7 @@ window.CASE_STUDIES = {
       clientNote: "via agency freelance",
       role: "Freelance Developer",
       year: "Sep 2020 \u2013 Mei 2021",
-      stack: ["Custom backend", "Frontend responsive"],
+      stack: ["Custom backend", "Responsive frontend"],
       hook: "Change request dan bugfix di platform web ERA Indonesia, dikerjakan paralel dengan app ERA Mobile.",
       overview: [
         "ERA Indonesia adalah platform web untuk master franchise Indonesia dari ERA Real Estate, yang punya lebih dari 100 kantor cabang. Platform ini mencakup pencarian dan listing properti, rekrutmen agen, sampai konten training.",
